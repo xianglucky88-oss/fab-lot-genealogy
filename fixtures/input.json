@@ -1,0 +1,25 @@
+{
+  "operations": [
+    {
+      "at": "2026-01-01T10:00:00Z",
+      "from_batch": "B0",
+      "to_batch": "B1",
+      "wafer": "W1",
+      "kind": "split"
+    },
+    {
+      "at": "2026-01-02T10:00:00Z",
+      "from_batch": "B1",
+      "to_batch": "B2",
+      "wafer": "W1",
+      "kind": "rework"
+    },
+    {
+      "at": "2026-01-03T10:00:00Z",
+      "from_batch": "B2",
+      "to_batch": "B3",
+      "wafer": "W1",
+      "kind": "merge"
+    }
+  ]
+}
