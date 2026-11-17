@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "type": "batch_create",
+      "at": "2026-01-01T08:00:00Z",
+      "batch_id": "LOT-A",
+      "wafers": ["W01", "W02", "W03", "W04"]
+    },
+    {
+      "type": "rework",
+      "at": "2026-01-03T10:00:00Z",
+      "from_batch": "LOT-A1",
+      "to_batch": "LOT-A1-RW",
+      "wafers": ["W01", "W02"],
+      "operation": "RW-STRIP"
+    }
+  ]
+}

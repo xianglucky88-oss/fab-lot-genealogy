@@ -7,6 +7,12 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Local genealogy data stores (raw landing zone + materialized snapshots)
+data-store/
+*_store/
+/tmp/
+*.tmp
+
 # Environment files and local configuration
 .env
 .env.*

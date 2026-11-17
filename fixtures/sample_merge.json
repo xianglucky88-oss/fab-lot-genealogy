@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "type": "merge",
+      "at": "2026-01-04T08:00:00Z",
+      "from_batches": ["LOT-A1-RW", "LOT-A2"],
+      "to_batch": "LOT-FINAL",
+      "wafers": ["W01", "W02", "W03", "W04"]
+    }
+  ]
+}

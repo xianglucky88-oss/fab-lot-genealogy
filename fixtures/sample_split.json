@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "type": "split",
+      "at": "2026-01-02T08:00:00Z",
+      "from_batch": "LOT-A",
+      "to_batches": ["LOT-A1", "LOT-A2"],
+      "wafers": ["W01", "W02", "W03", "W04"],
+      "wafers_by_child": {
+        "LOT-A1": ["W01", "W02"],
+        "LOT-A2": ["W03", "W04"]
+      }
+    }
+  ]
+}
